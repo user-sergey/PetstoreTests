@@ -5,7 +5,7 @@
 **Запуск тестов:**
 1. Открыть командную строку и клонировать проект:
 
-`git clone https://github.com/user-sergey/PetstoreTests.git path`
+```git clone https://github.com/user-sergey/PetstoreTests.git path```
 
 Вместо `path` - путь, куда произойдёт клонирование.
 
@@ -19,13 +19,13 @@
 
 2. Перейти к проекту:
 
-`cd path`
+```cd path```
 
 `path` такой же, какой был прописан Вами в пункте 1.
 
 3. Выполнить команду
 
-`gradlew.bat clean test`
+```gradlew.bat clean test```
 
 **ИЛИ**
 
@@ -33,8 +33,8 @@
 2. Открыть проект в IntelliJ IDEA.
 3. Открыть терминал (Alt+F12 или View - Tool Windows - Terminal) и прописать:
 
-`./gradlew test`
+```./gradlew test```
 
 ---
 
-Файл со всеми тестами расположен здесь: `src/test/kotlin/ApiTests.kt`
+Файл со всеми тестами расположен здесь: [`src/test/kotlin/ApiTests.kt`](src/test/kotlin/ApiTests.kt)
