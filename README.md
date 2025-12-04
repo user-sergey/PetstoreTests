@@ -4,36 +4,41 @@
 
 **Запуск тестов:**
 1. Открыть командную строку и клонировать проект:
+```bash
+git clone https://github.com/user-sergey/PetstoreTests.git path
+```
 
-```git clone https://github.com/user-sergey/PetstoreTests.git path```
+Замените `path` на путь, куда произойдёт клонирование.
 
-Вместо `path` - путь, куда произойдёт клонирование.
-
-**ВАЖНО!**  
-Использование русских символов в пути может помешать запуску тестов!  
+**ВАЖНО!!! ИСПОЛЬЗОВАНИЕ РУССКИХ СИМВОЛОВ В ПУТИ МОЖЕТ ПОМЕШАТЬ ЗАПУСКУ ТЕСТОВ!**  
 Возможные корректные образцы:
-
-`C:\Users\Anatoliy\Downloads\PetstoreTests`
-
-`C:\Users\Veronika\IdeaProjects\PetstoreTests`
+```bash
+C:\Users\Anatoliy\Downloads\PetstoreTests
+```
+```bash
+C:\Users\Veronika\IdeaProjects\PetstoreTests`
+```
 
 2. Перейти к проекту:
-
-```cd path```
+```bash
+cd path
+```
 
 `path` такой же, какой был прописан Вами в пункте 1.
 
 3. Выполнить команду
-
-```gradlew.bat clean test```
+```bash
+gradlew.bat clean test
+```
 
 **ИЛИ**
 
 1. Загрузить проект и извлечь архив.
 2. Открыть проект в IntelliJ IDEA.
 3. Открыть терминал (Alt+F12 или View - Tool Windows - Terminal) и прописать:
-
-```./gradlew test```
+```bash
+./gradlew test
+```
 
 ---
 
