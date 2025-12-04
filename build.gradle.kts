@@ -22,6 +22,10 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+
+    testLogging {
+        showStandardStreams = true
+    }
 }
 kotlin {
     jvmToolchain(21)
